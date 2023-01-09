@@ -1,0 +1,17 @@
+{
+  "name": "coming-soon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Katazina (https://github.com/KriemiKat)",
+  "license": "ISC",
+  "dependencies": {
+    "dead": "^0.0.2",
+    "dead-server": "^1.0.9"
+  }
+}
