@@ -3,6 +3,7 @@
 @import'../base/base.css';
 @import'../base/layout.css';
 
+
 /*3rd-party*/
 /*components*/
 /*CUSTOM STYLE BELOW THIS COMMENT LINE*/
@@ -11,8 +12,12 @@
 /*hero*/
 
 .hero {
-min-height: 100vh;
-padding-bottom: 30px;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    background-image: url(../../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero > .short-row{
