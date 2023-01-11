@@ -1,37 +1,63 @@
-.container{
+.container {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.container > .row{
+.container > .short-row {
+    width: 600px;
+    margin-left: calc(50% - 300px);
+  }
+   
+.container > .row {
+    display: inline-block;
     width: 1000px;
-    margin-left: calc(50%-500px);
-    background-color: bisque;
+    margin-left: calc(50% - 500px);
 }
 
-.container > .short-row{
-    width: 600px;
-    margin-left: calc(50%-300px);
-    background-color: aqua;
+.container > .row > .right-column {
+    width: 50%;
+    float: right;
+}
+
+
+.container > .row > .column {
+    width: 40%;
+    float: left;
 }
 
 @media (max-width: 1100px){
     .container > .row {
         width: 800px;
-        margin-left: calc(50%-400px);
-        background-color: brown;
-    }
+        margin-left: calc(50% - 400px);
+     }
 }
 
 @media (max-width: 900px){
     .container > .row {
         width: 600px;
-        margin-left: calc(50%-300px);    }
+        margin-left: calc(50% - 300px);    }
+}
+.container > .columns {
+    flex-direction: column;
+    gap: 60px;
+    justify-content:space-between;
+}
+
+.container > .columns >.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
 }
 
 @media (max-width: 640px){
-    .container > .row,
-    .container > .short-row,{
-        width: 100%;
-        margin-left: 0;    }
+    .container {
+    padding-left: 20px;
+    padding-right: 20px;   }
+}
+
+.container > .row,
+.container > .short-row {
+    width: 100%;
+    margin-left: 20px;
 }

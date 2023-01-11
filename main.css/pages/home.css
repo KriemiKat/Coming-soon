@@ -3,6 +3,7 @@
 @import'../base/base.css';
 @import'../base/layout.css';
 
+
 /*3rd-party*/
 /*components*/
 /*CUSTOM STYLE BELOW THIS COMMENT LINE*/
@@ -11,13 +12,18 @@
 /*hero*/
 
 .hero {
-min-height: 100vh;
-padding-bottom: 30px;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    background-image: url(../../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero > .short-row{
     display: flex;
     flex-direction: column;
+    gap: 30px;
     text-align: center;
     }
 
@@ -41,8 +47,9 @@ padding-bottom: 30px;
 }
 
     /*main */
-    /*footer/
+    /*footer*/
 footer.container{
     padding-top: 0%;
 }
+
 
