@@ -1,0 +1,20 @@
+.progress-bar {
+    display: flex;
+
+}
+
+.progress-bar > .top > .label {
+
+}
+
+.progress-bar > .top > .value {
+
+}
+
+.progress-bar > .progress {
+
+}
+
+.progress-bar > .progress >.bar {
+
+}
