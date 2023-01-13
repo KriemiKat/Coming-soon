@@ -6,7 +6,7 @@
 @import '../3rd-party/components/clock.css';
 @import '../3rd-party/components/mouse.css';
 @import '../3rd-party/components/progress-bar.css';
-
+@import '../3rd-party/components/button.css';
 
 /*3rd-party*/
 /*components*/
@@ -30,6 +30,8 @@
     flex-direction: column;
     gap: 30px;
     text-align: center;
+    align-content: center;
+    align-items: center;
     }
 
 /*main*/
@@ -91,7 +93,7 @@ footer.container{
     padding-top: 0%;
 }
 
-.back-to-bottom {
+.back-to-top {
     position: absolute;
     background-color: black;
     top: 0%;
