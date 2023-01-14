@@ -43,7 +43,7 @@
     object-position: center;
     }
     
-.main-title{
+.main-title {
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: -4px;
@@ -60,16 +60,16 @@
         padding-top: 0;
     }
 
-footer > .row {
+/*footer > .row {
     position: relative;
-}
+}*/
 
 .row.socials {
      display: flex;
      justify-content: center;
      flex-wrap: wrap;
      gap: 10px;
-     padding: 20px;
+     padding: 10px;
      text-align: center;
      border-bottom: 1px solid #fff;
     }
@@ -82,7 +82,7 @@ footer > .row {
     counter-reset: #fff;
     text-decoration: none;
     border-radius: 50%;
-    transition: all 5s;
+    transition: all 0.3s;
 }
 
 .socials > a:hover{
