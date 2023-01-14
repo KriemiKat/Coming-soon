@@ -1,15 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body,
-body*{
+body * {
     margin: 0;
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
 }
 
-body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
 }
 
-.bg-main{
+.bg-main {
     background-color: #03a9f3;
 }
 
@@ -18,12 +24,10 @@ p {
     line-height: 1.2em;
     color: #333;
 }
-
 p > a {
-color: red;
-text-decoration: none;
+    color: #ea1e63;
+    text-decoration: none;
 }
-
 p > a:hover {
     text-decoration: underline;
 }
