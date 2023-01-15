@@ -26,6 +26,21 @@
     max-height: 300px;
 }
 
+.subscribe > input {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    width: 600px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #fff;
+}
+
+input::placeholder {
+    color: #fff;}
+
 @media (max-width:1000px){
 .form > input {
     width: 100%;
