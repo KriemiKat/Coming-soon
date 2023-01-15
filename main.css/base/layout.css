@@ -69,4 +69,13 @@
     }
 }
 
+.container > .short-row  {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 
