@@ -98,7 +98,7 @@ footer > img {
     height: 20px;
     white-space: normal;
     font-size: 10px;
-    color: rgb(108, 182, 225);
+    color: rgb(17, 104, 154);
 
 }
 
@@ -108,18 +108,14 @@ footer > img {
 }
 
 span::before {
-    content: '';
-    display: inline;
-    background-color: grey;
-    width: 2px;
-    height: 10px;
-   }
+    content: "|";
+    padding: 0 3px;
+    display: inline-block;
+    }
 
 
 span::after {
-    content: '';
-    display: inline;
-    background-color: grey;
-    width: 4px;
-    height: 10px;
+    content: "|";
+    padding: 0 3px;
+    display: inline-block;
    }
